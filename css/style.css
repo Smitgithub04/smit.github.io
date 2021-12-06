@@ -1,0 +1,288 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  font-family: "Markazi Text", serif;
+}
+/* ------------ section:1 ----------- */
+
+.header {
+  min-height: 100vh;
+  width: auto;
+  background-image: url(background\ 1.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.logo-name {
+  color: black;
+  margin-top: 20px;
+}
+.logo-name2 {
+  position: relative;
+  color: white;
+  left: -25px;
+  margin-top: 18px;
+}
+.left {
+  display: inline-block;
+  position: absolute;
+  left: 60px;
+  top: 20px;
+}
+.left img {
+  width: 80px;
+}
+.left div {
+  text-align: left;
+  line-height: 0px;
+  font-size: 25px;
+}
+.mid {
+  display: block;
+  width: 30%;
+  margin: 0px auto;
+}
+.right {
+  display: inline-block;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+}
+.navbar {
+  display: inline-block;
+  padding: 0.5rem 0rem;
+}
+.navbar li {
+  display: inline-block;
+}
+.navbar li a {
+  color: black;
+  text-decoration: none;
+  padding: 12px;
+  margin: 5px;
+}
+.navbar li a:hover {
+  color: #7e0000;
+  box-shadow: inset 0px 0px 20px 1px #ffffff;
+  border-radius: 15px;
+}
+.btn {
+  margin: 0px 35px;
+  background-color: white;
+  padding: 10px 30px;
+  border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  font-family: "Baloo Bhai 2", cursive;
+}
+.btn:hover {
+  background-color: lightgoldenrodyellow;
+  transition: 1s;
+}
+.welcome {
+  margin: 200px 500px;
+  padding: 68px 29px;
+  width: 30%;
+  border-radius: 12px;
+  text-align: center;
+}
+
+/* ------------ section:2 ----------- */
+
+.about {
+  text-align: center;
+  margin: auto;
+  color: white;
+  min-height: 109vh;
+  width: auto;
+  background-image: url(20366436.jpg);
+  background-size: cover;
+  position: relative;
+}
+.about h1 {
+  font-size: 70px;
+  font-weight: 600;
+  text-shadow: 2px 2px 4px #ffffff;
+}
+.about p {
+  color: rgb(255, 255, 255);
+  text-align: justify;
+  text-align: left;
+  padding: 10px;
+  font-size: 20px;
+}
+.box h1 {
+  margin-top: 150px;
+}
+.box {
+  float: left;
+  width: 50%;
+  margin-top: 100px;
+  margin-left: -40px;
+}
+/* ---------------section:3------------ */
+
+.slider-section {
+  clear: both;
+  overflow: hidden;
+  height: 100vh;
+  width: auto;
+  background: rgb(240 217 255 / 55%);
+}
+.text-center {
+  text-shadow: 2px 1px 3px #ff4949;
+}
+.container h2 {
+  font-size: 4rem;
+}
+
+.media-29101 {
+  margin: auto;
+  padding: 2px;
+  height: 500px;
+  width: 300px;
+}
+
+/* ------------ section:4 ----------- */
+/* .footer {
+  min-height: 45vh;
+  width: auto;
+  background-color: black;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.company {
+  padding: 50px;
+  margin-left: 350px;
+  margin-top: 30px;
+}
+.row li {
+  display: inline-block;
+}
+.row li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 15px;
+}
+.row li a:hover {
+  color: #ffffff;
+  box-shadow: inset 0px 0px 20px 1px #ffffff;
+  border-radius: 15px;
+}
+.fa {
+  display: unset;
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 12px 15px;
+  border-radius: 50%;
+  box-sizing: unset;
+}
+
+.fa:hover {
+  opacity: 0.7;
+  color: white;
+  text-decoration: none;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+} */
+
+/* new footer css */
+
+.footer {
+  overflow: hidden;
+  width: 100%;
+  border: 3px solid red;
+  height: 400px;
+}
+
+.boxx {
+  float: left;
+  width: 33%;
+  background-color: black;
+  border: 1px solid blue;
+  height: 100%;
+  color: white;
+}
+
+.foot-logo {
+  position: relative;
+  top: 54px;
+  left: 180px;
+}
+
+@media screen and (max-width: 375px) {
+  .header {
+    display: block;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .welcome {
+    margin: 40 px 70 px;
+    padding: 0 px 0 px;
+    width: 0%;
+    border-radius: 0 px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .header {
+    width: 99vw;
+    position: relative;
+  }
+  .about {
+    width: 100vw;
+    height: 109vh;
+  }
+  .slider-section {
+    height: 137vh;
+    width: 139vw;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .welcome {
+    margin: 200px 0px;
+    width: 100%;
+    padding: 20px 20px;
+  }
+  .mid {
+    width: 100%;
+  }
+  .right {
+    right: 0px;
+    top: 200px;
+  }
+  .left {
+    left: 150px;
+  }
+  .logo-name {
+    margin-top: 25px;
+    margin-left: -50px;
+  }
+}
